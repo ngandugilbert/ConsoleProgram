@@ -1,4 +1,5 @@
 ﻿// // This creates a simple method
+
 using ConsoleProgram.Models;
 
 // // not returning a value
@@ -25,20 +26,32 @@ using ConsoleProgram.Models;
 
 
 
-class Program{
-   static void Main(string[] args){
-        
-        Student studentOne = new Student();
+class Program
+{
+   static void Main(string[] args)
+   {
 
-        studentOne.StudentNumber = 1234;
-        studentOne.StudentName = "Gilbert";
-        studentOne.YearOfStudy = 4;
+      //   Student studentOne = new Student();
 
-        Console.WriteLine(studentOne.StudentName);
+      //   studentOne.StudentNumber = 1234;
+      //   studentOne.StudentName = "Gilbert";
+      //   studentOne.YearOfStudy = 4;
+
+      //   Console.WriteLine(studentOne.StudentName);
+      Spacio mySpacio = new Spacio();
+
+      mySpacio.WayItLooks="funny";
+      mySpacio.Color = "Blue";
+      mySpacio.SpeedLimit = 200;
+
+      // TASK: Print information about the attributes of my Spacio
 
     }
 
-    // create a method that receives information about yourself and let it print out an aboutme
-    // call the method AboutMe
+   // create a method that receives information about yourself and let it print out an aboutme
+   // call the method AboutMe
+   /**********************************************************************************************/
+   // Inheritance
 
 }
+
