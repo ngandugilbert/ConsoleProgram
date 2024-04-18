@@ -1,4 +1,5 @@
 ﻿// // This creates a simple method
+using ConsoleProgram.Models;
 
 // // not returning a value
 
@@ -22,12 +23,7 @@
 
 // ------------Classes--------------------
 
-// This is the student blueprint
-class Student{
-   public int StudentNumber{get; set;}
-   public string StudentName{get;set;}
-   public int YearOfStudy{get; set;}
-}
+
 
 class Program{
    static void Main(string[] args){
